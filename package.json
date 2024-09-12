@@ -1,0 +1,38 @@
+{
+  "name": "astro-template",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.3",
+    "@astrojs/node": "^8.3.3",
+    "@astrojs/react": "^3.6.2",
+    "@astrojs/tailwind": "^5.1.0",
+    "@libsql/client": "^0.10.0",
+    "@nextui-org/react": "^2.4.6",
+    "@prisma/adapter-libsql": "^5.19.1",
+    "@prisma/client": "5.19.1",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "astro": "^4.15.3",
+    "framer-motion": "^11.5.4",
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^8.5.0",
+    "eslint": "^9.10.0",
+    "eslint-plugin-astro": "^1.2.3",
+    "prisma": "5.19.1"
+  }
+}

@@ -1,0 +1,23 @@
+---
+import Example from '../components/Example.astro';
+import Layout from '../layouts/Layout.astro';
+import { Button, Input } from '@nextui-org/react';
+import { db } from '../lib/db';
+---
+
+<Layout title="Astro Template">
+  <Example message="Astro Template" />
+
+  <p class="text-lg text-zinc-400">This is an astro template that i like to use for my projects.</p>
+
+  <Button color="primary" variant="flat" client:load>Click Me</Button>
+
+  <form class="mt-5">
+    <h1 class="text-xl font-bold mb-2">Join News Letter</h1>
+    <div class="mb-4">
+      <Input isRequired type="email" label="Email" defaultValue="john@doe.com" className="max-w-xs" />
+    </div>
+
+    <Button client:load> Subscribe </Button>
+  </form>
+</Layout>
